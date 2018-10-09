@@ -1,0 +1,106 @@
+public class main {
+
+	public static void main(String[] args) {
+		kotak kotakHitam = new kotak();
+		
+		kotakHitam.setPanjang(20);
+		kotakHitam.setLebar(10);
+		
+		kotakHitam.hitungLuas();
+		kotakHitam.hitungKeliling();
+	
+		System.out.println("Panjang : " + kotakHitam.getPanjang());
+		System.out.println("Lebar : " + kotakHitam.getLebar());
+		System.out.println("LuasKotak : " + kotakHitam.getLuas());
+		System.out.println("KelilingKotak " + kotakHitam.getKeliling());
+		System.out.println("___________________________________________");
+				
+		{
+			//Hasil Mahasiswa
+			mahasiswa mhs1 = new mahasiswa();
+			mhs1.setNama("Nur Lismawati");
+			mhs1.setNim("D0217309");
+			mhs1.setAlamat("Pasangkayu");
+			mhs1.setGolonganDarah("B");
+			mhs1.setStatus("Mahasiswa");
+			mhs1.setTinggiBadan(153);
+			mhs1.setBeratBadan(45);
+			
+			System.out.println("Nama : " + mhs1.getNama());
+			System.out.println("Nim : " + mhs1.getNim());
+			System.out.println("Alamat : " + mhs1.getAlamat());
+			System.out.println("GolonganDarah : " + mhs1.getGolonganDarah());
+			System.out.println("Status : " + mhs1.getStatus());
+			System.out.println("TinggiBadan : " + mhs1.getTinggiBadan());
+			System.out.println("BeratBadan : " + mhs1.getBaratBadan());
+			System.out.println("---------------------------------------------");
+
+		}
+		
+		
+		//Hasil node
+		
+		node nodeku = new node();
+		nodeku.setLabel("M.farham");
+		nodeku.setValue(19);
+			
+		System.out.println( nodeku.getLabel());
+		System.out.println("Tahun : " + nodeku.getValue());
+		System.out.println("---------------------------------------------");
+		
+		//stack
+		
+		Stack Stack1 = new Stack();
+		System.out.println("________________");
+		Stack1.Value[0] = "NurLismawati";
+		Stack1.Value[1] = "NurLismawati";
+		Stack1.Value[2] = "NurLismawati";
+		Stack1.Value[3] = "NurLismawati";
+		Stack1.Value[4] = "NurLismawati";
+		Stack1.Value[5] = "NurLismawati";
+		Stack1.Value[6] = "NurLismawati";
+		Stack1.Value[7] = "NurLismawati";
+		Stack1.Value[8] = "NurLismawati";
+		Stack1.Value[9] = "NurLismawati";
+		Stack1.Value[10] = "NurLismawati";
+		Stack1.Value[11] = "NurLismawati";
+		Stack1.Value[12] = "NurLismawati";
+		Stack1.Value[13] = "NurLismawati";
+		Stack1.Value[14] = "NurLismawati";
+		Stack1.Value[15] = "NurLismawati";
+		Stack1.Value[16] = "NurLismawati";
+		Stack1.Value[17] = "NurLismawati";
+		Stack1.Value[18] = "NurLismawati";
+		Stack1.Value[19] = "NurLismawati";
+		Stack1.Value[20] = "NurLismawati";
+		Stack1.Value[21] = "NurLismawati";
+		Stack1.Value[22] = "NurLismawati";
+		Stack1.Value[23] = "NurLismawati";
+		Stack1.Value[24] = "NurLismawati";
+		Stack1.Value[25] = "NurLismawati";
+		Stack1.Value[26] = "NurLismawati";
+		Stack1.Value[27] = "NurLismawati";
+		Stack1.Value[28] = "NurLismawati";
+		Stack1.Value[29] = "NurLismawati";
+		Stack1.Value[30] = "NurLismawati";
+		Stack1.Value[31] = "NurLismawati";
+		Stack1.Value[32] = "NurLismawati";
+		Stack1.Value[33] = "NurLismawati";
+		Stack1.Value[34] = "NurLismawati";
+		Stack1.Value[35] = "NurLismawati";
+		Stack1.Value[36] = "NurLismawati";
+		Stack1.Value[37] = "NurLismawati";
+		Stack1.Value[38] = "NurLismawati";
+		Stack1.Value[39] = "NurLismawati";
+		Stack1.Value[40] = "NurLismawati";
+		Stack1.Value[41] = "NurLismawati";
+		Stack1.Value[42] = "NurLismawati";
+	
+		Stack1.setValueAt(7, "Nur Lismawati");
+		for(int i=0;i<Stack1.Value.length;i++)
+		{System.out.println(Stack1.Value[i]);};
+	}
+		
+	
+}
+
